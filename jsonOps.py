@@ -30,7 +30,6 @@ def writeDeltas(deltas):
 def readDeltas(): #reads our json list of deltas
     with open("./deltas/" + 'delta', "r") as rfile:
         data = json.load(rfile)
-    print(data)
     return data
 
 def loadTeams():
